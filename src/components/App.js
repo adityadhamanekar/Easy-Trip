@@ -17,7 +17,6 @@ export default function App() {
 
   function setItemsToLocalStorage(items) {
     localStorage.setItem("items", JSON.stringify(items));
-    console.log(items);
   }
 
   function handleToggleItem(id) {
